@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade Prática: CSS Anchor Positioning</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topo">
+    <span class="badge">CSS Anchor Positioning • Imagem IA (16:9) com 5 Elementos</span>
+    <h1>Tema: [Nome da Sua Temática Aqui]</h1>
+    <p>Aluno(a): [Seu Nome] • Chamada: Aluno Nº [Seu Número]</p>
+  </header>
+
+  <main class="container-infografico">
+    <div class="cenario-imagem">
+      <!-- 1 Única Imagem Widescreen (16:9) Gerada na IA -->
+      <img id="foto-cenario" src="./IMG/imag1.jpg" alt="Cafeteria Gourmet e Barista">
+
+      <!-- PONTO 1: Superior Esquerdo -->
+      <button type="button" id="ponto-1" class="pin-hotspot pin-top-left" popovertarget="card-1">1</button>
+      <div id="card-1" class="card-ancorado" popover>
+        <h3>1. [Moedor Cônico 1]</h3>
+        <p>Descrição técnica do equipamento localizado no canto superior esquerdo, utilizado para moer os grãos de café e ajustar a granulometria conforme o método de preparo desejado.</p>
+      </div>
+
+      <!-- PONTO 2: Superior Direito -->
+      <button type="button" id="ponto-2" class="pin-hotspot pin-top-right" popovertarget="card-2">2</button>
+      <div id="card-2" class="card-ancorado" popover>
+        <h3>2. [Filtro V60 2]</h3>
+        <p>Descrição técnica do utensílio utilizado no preparo de café por filtragem manual, com formato cônico e ranhuras internas que favorecem o fluxo da água. Utiliza um filtro de papel para separar o pó da bebida, permitindo controlar a extração e realçar as características sensoriais do café.</p>
+      </div>
+
+      <!-- PONTO 3: Centro -->
+      <button type="button" id="ponto-3" class="pin-hotspot pin-center" popovertarget="card-3">3</button>
+      <div id="card-3" class="card-ancorado" popover>
+        <h3>3. [Máquina de Café Espresso 3]</h3>
+        <p>Descrição técnica do equipamento localizado no centro da imagem, utilizado para preparar café espresso por meio da passagem de água quente sob pressão pelo café moído.</p>
+      </div>
+
+      <!-- PONTO 4: Inferior Esquerdo -->
+      <button type="button" id="ponto-4" class="pin-hotspot pin-bottom-left" popovertarget="card-4">4</button>
+      <div id="card-4" class="card-ancorado" popover>
+        <h3>4. [Prensa Francesa 4]</h3>
+        <p>Descrição técnica do utensílio localizado no canto inferior esquerdo, utilizado para preparar café por infusão, separando o pó da bebida por meio de um filtro metálico com êmbolo.</p>
+      </div>
+
+      <!-- PONTO 5: Inferior Direito -->
+      <button type="button" id="ponto-5" class="pin-hotspot pin-bottom-right" popovertarget="card-5">5</button>
+      <div id="card-5" class="card-ancorado" popover>
+        <h3>5. [Xícara com Latte Art5]</h3>
+        <p>Descrição técnica do recipiente localizado no canto inferior direito, utilizado para servir bebidas à base de café espresso com leite vaporizado, podendo apresentar desenhos decorativos na superfície, conhecidos como latte art.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="rodape">
+    <p>Material Pedagógico • Prof. Esp. Leandro Gaudio Rosa • Entrega no GitHub Pages</p>
+  </footer>
+
+</body>
+</html>
